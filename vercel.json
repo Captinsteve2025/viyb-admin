@@ -1,0 +1,14 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "pnpm run build",
+  "installCommand": "pnpm install",
+  "functions": {
+    "src/app/(payload)/api/**/*.ts": {
+      "maxDuration": 60
+    },
+    "src/app/(payload)/admin/**/*.tsx": {
+      "maxDuration": 60
+    }
+  },
+  "crons": []
+}
