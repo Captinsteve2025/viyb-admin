@@ -31,8 +31,7 @@
     "react": "19.2.1",
     "react-dom": "19.2.1",
     "sharp": "0.34.2",
-    "ts-node": "^10.9.2",
-    "same-runtime": "^0.0.1"
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@playwright/test": "1.56.1",
